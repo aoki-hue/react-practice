@@ -2,6 +2,8 @@ import { getNewsList } from "@/app/_libs/microcms";
 import SearchField from "@/app/_components/SearchField";
 import { NEWS_LIST_LIMIT } from "@/app/_constants";
 
+// export const revalidate = 60;
+
 // コンポーネント
 import NewsList from "@/app/_components/NewsList";
 import Pagination from "@/app/_components/Pagination";
