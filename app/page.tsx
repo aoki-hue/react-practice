@@ -19,9 +19,19 @@ export default async function Home() {
       <section className={styles.top}>
         <div>
           <h1 className={styles.title}>テクノロジーの力で世界を変える</h1>
-          <p className={styles.description}>私たちは市場をリードしているグローバルテックカンパニーです。</p>
+          <p className={styles.description}>
+            私たちは市場をリードしているグローバルテックカンパニーです。
+          </p>
         </div>
-        <Image className={styles.bgImg} src="/img-mv.jpg" alt="" width={4000} height={1200} />
+        <Image
+          className={styles.bgImg}
+          src="/img-mv.jpg"
+          alt=""
+          width={4000}
+          height={1200}
+          sizes="100vw"
+          priority
+        />
       </section>
       <section className={styles.news}>
         <h2 className={styles.newsTitle}>News</h2>
